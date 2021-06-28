@@ -1,4 +1,5 @@
-﻿using CAT.Bank.Enums;
+﻿using System;
+using CAT.Bank.Enums;
 
 namespace CAT.Bank.Classes
 {
@@ -16,6 +17,33 @@ namespace CAT.Bank.Classes
             this.Nome = nome;
             this.Saldo = saldo;
             this.Credito = credito;
+        }
+
+        public bool Sacar(double valorSaque)
+        {
+            if (this.Saldo -valorSaque < (this.Credito * -1))
+            {
+                Console.WriteLine("Saldo Insuficiente");
+                return false;
+            }
+
+            this.Saldo -= valorSaque;
+            Console.WriteLine("Saldo atual da conta de {0} é {1}", this.Nome, this.Saldo);
+            return true;
+        }
+
+        public void Depositar(double valorDeposito)
+        {
+            this.Saldo += valorDeposito;
+            Console.WriteLine("Saldo atual da conta de {0} é {1}", this.Nome, this.Saldo);
+        }
+
+        public void Transferir(double valorTransferencia, Conta contaDestino)
+        {
+            if (this.Sacar(valorTransferencia))
+            {
+                contaDestino.Depositar(valorTransferencia);
+            }
         }
     }
 }

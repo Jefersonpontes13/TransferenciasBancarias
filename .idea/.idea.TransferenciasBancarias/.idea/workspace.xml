@@ -5,30 +5,9 @@
     <projectFile>CAT.Bank/CAT.Bank.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba73f32b-c8eb-4b3a-835a-ee1673b5a95d" name="Default Changelist" comment="Inicia Projeto de Transferências Bancárias .NET C#">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.TransferenciasBancarias/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.TransferenciasBancarias/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.TransferenciasBancarias/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.TransferenciasBancarias/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CAT.Bank/CAT.Bank.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CAT.Bank/Classes/Conta.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CAT.Bank/Enums/TipoConta.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CAT.Bank/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CAT.Bank/obj/CAT.Bank.csproj.nuget.dgspec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CAT.Bank/obj/CAT.Bank.csproj.nuget.g.props" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CAT.Bank/obj/CAT.Bank.csproj.nuget.g.targets" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CAT.Bank/obj/Debug/net5.0/.NETCoreApp,Version=v5.0.AssemblyAttributes.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CAT.Bank/obj/Debug/net5.0/CAT.Bank.AssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CAT.Bank/obj/Debug/net5.0/CAT.Bank.AssemblyInfoInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CAT.Bank/obj/Debug/net5.0/CAT.Bank.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CAT.Bank/obj/Debug/net5.0/CAT.Bank.assets.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CAT.Bank/obj/Debug/net5.0/CAT.Bank.csproj.AssemblyReference.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CAT.Bank/obj/project.assets.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CAT.Bank/obj/project.nuget.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CAT.Bank/obj/project.packagespec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CAT.Bank/obj/rider.project.restore.info" afterDir="false" />
+    <list default="true" id="ba73f32b-c8eb-4b3a-835a-ee1673b5a95d" name="Default Changelist" comment="Cria Enum TipoConta e Construtor de Conta">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TransferenciasBancarias/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TransferenciasBancarias/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TransferenciasBancarias.sln" beforeDir="false" afterPath="$PROJECT_DIR$/TransferenciasBancarias.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CAT.Bank/Classes/Conta.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CAT.Bank/Classes/Conta.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +92,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1624751596045</updated>
-      <workItem from="1624751605643" duration="1780000" />
+      <workItem from="1624751605643" duration="2575000" />
     </task>
     <task id="LOCAL-00001" summary="Inicia Projeto de Transferências Bancárias .NET C#">
       <created>1624751687262</created>
@@ -122,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624751687262</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Cria Enum TipoConta e Construtor de Conta">
+      <created>1624887290243</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1624887290243</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,6 +130,7 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Inicia Projeto de Transferências Bancárias .NET C#" />
-    <option name="LAST_COMMIT_MESSAGE" value="Inicia Projeto de Transferências Bancárias .NET C#" />
+    <MESSAGE value="Cria Enum TipoConta e Construtor de Conta" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cria Enum TipoConta e Construtor de Conta" />
   </component>
 </project>
