@@ -104,5 +104,19 @@ namespace CAT.Bank
 
             listContas.Add(novaConta);
         }
+        
+        private static void Transferir()
+        {
+            Console.Write("Digite o número da conta de origem: ");
+            int indiceContaOrigem = int.Parse(Console.ReadLine());
+
+            Console.Write("Digite o número da conta de destino: ");
+            int indiceContaDestino = int.Parse(Console.ReadLine());
+
+            Console.Write("Digite o valor a ser transferido: ");
+            double valorTransferencia = double.Parse(Console.ReadLine());
+
+            listContas[indiceContaOrigem].Transferir(valorTransferencia, listContas[indiceContaDestino]);
+        }
     }
 }
