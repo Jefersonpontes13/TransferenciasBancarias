@@ -5,7 +5,7 @@
     <projectFile>CAT.Bank/CAT.Bank.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba73f32b-c8eb-4b3a-835a-ee1673b5a95d" name="Default Changelist" comment="Adiciona override ToString">
+    <list default="true" id="ba73f32b-c8eb-4b3a-835a-ee1673b5a95d" name="Default Changelist" comment="Adicona &quot;Menu&quot; de opção dos usuários">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TransferenciasBancarias/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TransferenciasBancarias/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CAT.Bank/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CAT.Bank/Program.cs" afterDir="false" />
     </list>
@@ -92,7 +92,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1624751596045</updated>
-      <workItem from="1624751605643" duration="4230000" />
+      <workItem from="1624751605643" duration="4430000" />
     </task>
     <task id="LOCAL-00001" summary="Inicia Projeto de Transferências Bancárias .NET C#">
       <created>1624751687262</created>
@@ -122,7 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624888862774</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Adicona &quot;Menu&quot; de opção dos usuários">
+      <created>1624910208781</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1624910208781</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,6 +154,7 @@
     <MESSAGE value="Cria Enum TipoConta e Construtor de Conta" />
     <MESSAGE value="Adiciona os métodos da classe Conta.cs&#10;&#10;Sacar&#10;Depositar&#10;Transferir" />
     <MESSAGE value="Adiciona override ToString" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adiciona override ToString" />
+    <MESSAGE value="Adicona &quot;Menu&quot; de opção dos usuários" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adicona &quot;Menu&quot; de opção dos usuários" />
   </component>
 </project>
