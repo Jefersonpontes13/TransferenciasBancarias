@@ -45,5 +45,15 @@ namespace CAT.Bank.Classes
                 contaDestino.Depositar(valorTransferencia);
             }
         }
+
+        public override string ToString()
+        {
+            string retorno = "";
+            retorno += "TipoConta" + this.TipoConta;
+            retorno += "| Nome" + this.Nome;
+            retorno += "| saldo" + this.Saldo;
+            retorno += "| Credito" + this.Credito;
+            return retorno;
+        }
     }
 }

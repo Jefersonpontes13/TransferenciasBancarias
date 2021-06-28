@@ -5,9 +5,10 @@
     <projectFile>CAT.Bank/CAT.Bank.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba73f32b-c8eb-4b3a-835a-ee1673b5a95d" name="Default Changelist" comment="Cria Enum TipoConta e Construtor de Conta">
+    <list default="true" id="ba73f32b-c8eb-4b3a-835a-ee1673b5a95d" name="Default Changelist" comment="Adiciona os métodos da classe Conta.cs&#10;&#10;Sacar&#10;Depositar&#10;Transferir">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TransferenciasBancarias/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TransferenciasBancarias/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CAT.Bank/Classes/Conta.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CAT.Bank/Classes/Conta.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CAT.Bank/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CAT.Bank/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +24,8 @@
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/CAT.Bank/Conta/Conta.cs" />
-      <option value="$PROJECT_DIR$/CAT.Bank/Program.cs" />
       <option value="$PROJECT_DIR$/CAT.Bank/Enums/TipoConta.cs" />
+      <option value="$PROJECT_DIR$/CAT.Bank/Program.cs" />
       <option value="$PROJECT_DIR$/CAT.Bank/Classes/Conta.cs" />
     </changedPaths>
   </component>
@@ -92,7 +93,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1624751596045</updated>
-      <workItem from="1624751605643" duration="2575000" />
+      <workItem from="1624751605643" duration="3181000" />
     </task>
     <task id="LOCAL-00001" summary="Inicia Projeto de Transferências Bancárias .NET C#">
       <created>1624751687262</created>
@@ -108,7 +109,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624887290243</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Adiciona os métodos da classe Conta.cs&#10;&#10;Sacar&#10;Depositar&#10;Transferir">
+      <created>1624888024401</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1624888024401</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,6 +139,7 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Inicia Projeto de Transferências Bancárias .NET C#" />
     <MESSAGE value="Cria Enum TipoConta e Construtor de Conta" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cria Enum TipoConta e Construtor de Conta" />
+    <MESSAGE value="Adiciona os métodos da classe Conta.cs&#10;&#10;Sacar&#10;Depositar&#10;Transferir" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adiciona os métodos da classe Conta.cs&#10;&#10;Sacar&#10;Depositar&#10;Transferir" />
   </component>
 </project>
