@@ -62,6 +62,24 @@ namespace CAT.Bank
             return opcaoUsuario;
         }
         
+        private static void ListarContas()
+        {
+            Console.WriteLine("Listar contas");
+
+            if (listContas.Count == 0)
+            {
+                Console.WriteLine("Nenhuma conta cadastrada.");
+                return;
+            }
+
+            for (int i = 0; i < listContas.Count; i++)
+            {
+                Conta conta = listContas[i];
+                Console.Write("#{0} - ", i);
+                Console.WriteLine(conta);
+            }
+        }
+        
         private static void InserirConta()
         {
             Console.WriteLine("Inserir nova conta");
@@ -78,7 +96,8 @@ namespace CAT.Bank
             Console.Write("Digite o crédito: ");
             double entradaCredito = double.Parse(Console.ReadLine());
 
-            Conta novaConta = new Conta(tipoConta: (TipoConta)entradaTipoConta,
+            Conta novaConta = new Conta(
+                (TipoConta)entradaTipoConta,
                 saldo: entradaSaldo,
                 credito: entradaCredito,
                 nome: entradaNome);

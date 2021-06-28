@@ -5,7 +5,7 @@
     <projectFile>CAT.Bank/CAT.Bank.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba73f32b-c8eb-4b3a-835a-ee1673b5a95d" name="Default Changelist" comment="Adicona &quot;Menu&quot; de opção dos usuários">
+    <list default="true" id="ba73f32b-c8eb-4b3a-835a-ee1673b5a95d" name="Default Changelist" comment="Cria função InserirNovaConta">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TransferenciasBancarias/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TransferenciasBancarias/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CAT.Bank/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CAT.Bank/Program.cs" afterDir="false" />
     </list>
@@ -19,6 +19,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/TransferenciasBancarias/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/jeffe/RiderProjects/TransferenciasBancarias/CAT.Bank/Program.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -92,7 +93,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1624751596045</updated>
-      <workItem from="1624751605643" duration="4430000" />
+      <workItem from="1624751605643" duration="4726000" />
     </task>
     <task id="LOCAL-00001" summary="Inicia Projeto de Transferências Bancárias .NET C#">
       <created>1624751687262</created>
@@ -129,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624910208781</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Cria função InserirNovaConta">
+      <created>1624910412370</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1624910412370</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,6 +163,7 @@
     <MESSAGE value="Adiciona os métodos da classe Conta.cs&#10;&#10;Sacar&#10;Depositar&#10;Transferir" />
     <MESSAGE value="Adiciona override ToString" />
     <MESSAGE value="Adicona &quot;Menu&quot; de opção dos usuários" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adicona &quot;Menu&quot; de opção dos usuários" />
+    <MESSAGE value="Cria função InserirNovaConta" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cria função InserirNovaConta" />
   </component>
 </project>
