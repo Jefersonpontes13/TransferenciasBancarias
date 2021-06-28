@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransferenciasBancarias", "TransferenciasBancarias\TransferenciasBancarias.csproj", "{20986F73-7173-4FD6-A344-64B2103A321C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CAT.Bank", "CAT.Bank\CAT.Bank.csproj", "{0CFD6692-FAE5-4747-83EB-87FBB4EB7FB6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -8,9 +8,9 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{20986F73-7173-4FD6-A344-64B2103A321C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{20986F73-7173-4FD6-A344-64B2103A321C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{20986F73-7173-4FD6-A344-64B2103A321C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{20986F73-7173-4FD6-A344-64B2103A321C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CFD6692-FAE5-4747-83EB-87FBB4EB7FB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CFD6692-FAE5-4747-83EB-87FBB4EB7FB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CFD6692-FAE5-4747-83EB-87FBB4EB7FB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CFD6692-FAE5-4747-83EB-87FBB4EB7FB6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
