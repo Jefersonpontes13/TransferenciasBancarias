@@ -118,5 +118,16 @@ namespace CAT.Bank
 
             listContas[indiceContaOrigem].Transferir(valorTransferencia, listContas[indiceContaDestino]);
         }
+        
+        private static void Sacar()
+        {
+            Console.Write("Digite o número da conta: ");
+            int indiceConta = int.Parse(Console.ReadLine());
+
+            Console.Write("Digite o valor a ser sacado: ");
+            double valorSaque = double.Parse(Console.ReadLine());
+
+            listContas[indiceConta].Sacar(valorSaque);
+        }
     }
 }

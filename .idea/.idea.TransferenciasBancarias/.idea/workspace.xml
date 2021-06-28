@@ -5,7 +5,7 @@
     <projectFile>CAT.Bank/CAT.Bank.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba73f32b-c8eb-4b3a-835a-ee1673b5a95d" name="Default Changelist" comment="Cria função ListarContas">
+    <list default="true" id="ba73f32b-c8eb-4b3a-835a-ee1673b5a95d" name="Default Changelist" comment="Cria função Transferir">
       <change beforePath="$PROJECT_DIR$/CAT.Bank/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CAT.Bank/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -92,7 +92,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1624751596045</updated>
-      <workItem from="1624751605643" duration="4777000" />
+      <workItem from="1624751605643" duration="4837000" />
     </task>
     <task id="LOCAL-00001" summary="Inicia Projeto de Transferências Bancárias .NET C#">
       <created>1624751687262</created>
@@ -143,7 +143,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624910691484</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Cria função Transferir">
+      <created>1624910761852</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1624910761852</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,6 +178,7 @@
     <MESSAGE value="Adicona &quot;Menu&quot; de opção dos usuários" />
     <MESSAGE value="Cria função InserirNovaConta" />
     <MESSAGE value="Cria função ListarContas" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cria função ListarContas" />
+    <MESSAGE value="Cria função Transferir" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cria função Transferir" />
   </component>
 </project>
