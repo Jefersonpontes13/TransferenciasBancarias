@@ -129,5 +129,16 @@ namespace CAT.Bank
 
             listContas[indiceConta].Sacar(valorSaque);
         }
+        
+        private static void Depositar()
+        {
+            Console.Write("Digite o número da conta: ");
+            int indiceConta = int.Parse(Console.ReadLine());
+
+            Console.Write("Digite o valor a ser depositado: ");
+            double valorDeposito = double.Parse(Console.ReadLine());
+
+            listContas[indiceConta].Depositar(valorDeposito);
+        }
     }
 }
